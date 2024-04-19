@@ -11,6 +11,8 @@ const User = require("../model/userModel");
 //     confirm_password: z.string().trim().min(6, { message: "Confirm password should be at least 6 characters" }),
 //     role: z.string().optional(),
 // });
+// check kar raha hu me abhi
+
 exports.register = async (req, res) => {
     try {
         // signUpZod.parse(req.body);
